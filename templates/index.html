@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Video Downloader</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <main>
+        <img src="icon.ico" alt="">
+        <h1>YouTube Video Downloader</h1>
+        <form action="/download" method="post">
+            <div>
+                <input type="text" name="video_url" placeholder="Enter YouTube video URL">
+                <select name="resolution">
+                    <option value="Highest Quality">Highest Quality</option>
+                    <option value="Lowest Quality">Lowest Quality</option>
+                </select>
+            </div>
+            <button type="submit">Download</button>
+        </form>
+        <h2>Crated by Nikhil</h2>
+    </main>
+
+</body>
+</html>
