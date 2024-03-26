@@ -13,7 +13,7 @@ main{
 }
 h1{
     font-size: 300%;
-    color: rgb(238, 27, 12);
+    color: rgb(240, 197, 194);
 }
 input{
     width: 15rem;
@@ -39,11 +39,11 @@ button{
     margin-top: 20px;
     width: 10rem;
     height: 3rem;
-    background-color: #2c0d1547;
-    border: 3px solid rgb(255, 0, 0);
+    background-color: #f70541ff;
+    border: 3px solid rgb(231, 172, 172);
     border-radius:8px;
     padding: 10px;
-    color: #ea7664;
+    color: #f8f1ef;
     font-size:large;
 }
 h2{
