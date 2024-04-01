@@ -1,8 +1,7 @@
-import os
-from flask import Flask, render_template, request, send_file, send_from_directory, url_for
+from flask import Flask, render_template, request, send_file
 from pytube import YouTube
 
-app = Flask(__name__, template_folder='templates')
+app = Flask(__name__)
 
 @app.route('/')
 def index():
