@@ -28,7 +28,7 @@ def download():
 
         # Serve the downloaded file as an attachment
         return send_file(video_path, as_attachment=True)
-    except:
+    except Exception:
         return "Download Error"
 
 
